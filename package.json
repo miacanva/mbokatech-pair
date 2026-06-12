@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
       "start": "pm2 start index.js --deep-monitoring --attach --name malvin-xd",
-      "stop": "pm2 stop malvin-xd",
-     "restart": "pm2 restart malvin-xd"
+      "stop": "pm2 stop queen-miriam",
+     "restart": "pm2 restart queen-miriam"
     },
   "dependencies": {
    "@whiskeysockets/baileys": "^6.7.17",          
