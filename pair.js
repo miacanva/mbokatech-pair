@@ -79,7 +79,7 @@ var randomItem = selectRandomItem(items);
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*Hey there, MALVIN-XD User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using *Queen-miriam* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -88,21 +88,21 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029VbCSzViAjPXF9tcEJg37
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/miacanva/Queen-miriam
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by Queen miriam*
 Stay cool and hack smart. ✌🏻`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ",
+title: "Queen-miriam",
 thumbnailUrl: "https://files.catbox.moe/bqs70b.jpg",
 sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
 mediaType: 1,
@@ -115,7 +115,7 @@ renderLargerThumbnail: true
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
                             let desc = `Hey there, MALVIN-XD User!* 👋🏻
 
-Thanks for using *MALVIN-XD* — your session has been successfully created!
+Thanks for using *QUEEN-MIRIAM* — your session has been successfully created!
 
 🔐 *Session ID:* Sent above  
 ⚠️ *Keep it safe!* Do NOT share this ID with anyone.
@@ -124,23 +124,23 @@ Thanks for using *MALVIN-XD* — your session has been successfully created!
 
 *✅ Stay Updated:*  
 Join our official WhatsApp Channel:  
-https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+https://whatsapp.com/channel/0029VbCSzViAjPXF9tcEJg37
 
 *💻 Source Code:*  
 Fork & explore the project on GitHub:  
-https://github.com/XdKing2/MALVIN-XD
+https://github.com/miacanva/Queen-miriam
 
 ——————
 
-> *© Powered by Malvin King*
+> *© Powered by Queen miriam*
 Stay cool and hack smart. ✌🏻`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-xᴅ",
+title: "Queen-miriam",
 thumbnailUrl: "https://i.imgur.com/GVW7aoD.jpeg",
-sourceUrl: "https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A",
+sourceUrl: "https://whatsapp.com/channel/0029VbCSzViAjPXF9tcEJg37",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
@@ -157,7 +157,7 @@ showAdAttribution: true
                     process.exit();
                 } else if (connection === "close" && lastDisconnect && lastDisconnect.error && lastDisconnect.error.output.statusCode != 401) {
                     await delay(10);
-                    MALVIN_XD_PAIR_CODE();
+                    QUEEN_MIRIAM_PAIR_CODE();
                 }
             });
         } catch (err) {
@@ -168,7 +168,7 @@ showAdAttribution: true
             }
         }
     }
-   return await MALVIN_XD_PAIR_CODE();
+   return await QUEEN_MIRIAM_PAIR_CODE();
 });/*
 setInterval(() => {
     console.log("☘️ 𝗥𝗲𝘀𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗽𝗿𝗼𝗰𝗲𝘀𝘀...");
